@@ -1,12 +1,12 @@
 
 //credit to Xyntercept for making the "filthy richard" texture
-Game.registerMod("LesContent",{
+Game.registerMod("ECM+++",{
     init:function(){
     if(l('topbarFrenzy')){
         Game.Notify("You are currently in an unofficial version of the game","Play on orteil.dashnet.org/cookieclicker")
         return;
     }
-        this.spritesheet=App?this.dir+"/img.png":"https://cdn.discordapp.com/attachments/1223559723312218152/1346887295264882768/Untitled_11-b327.png?ex=67ca7acb&is=67c9294b&hm=a1480e2eb54da5516360b678832d54324e2d800ab71576597b5ecf90a84776b0&" //not hurrah github
+        this.spritesheet=App?this.dir+"/img.png":"https://flnpower.github.io/LookAss.png" //not hurrah github
         if(Game.ready) this.createAchievements()
         else Game.registerHook("create", this.createAchievements)
         Game.registerHook("check", this.checkAchievements)
@@ -237,7 +237,7 @@ if (Game.Objects["Farm"].minigameLoaded) {
         if (Game.wrinklersPopped==666 && Game.HasAchiev("Puzzle 3 Complete!"))Game.Win("Puzzle 4 Complete!")
         if (Game.HasAchiev("Puzzle 4 Complete!") && Game.windowH>=4000)Game.Win("Puzzle 5 Complete!")
         if (Game.HasAchiev("Puzzle 5 Complete!") && Game.TickerClicks>=1000)Game.Win("All Puzzles Complete!")
-         if(Game.mods["LesContent"].achievements.every((c)=>{return c.won||(c.name=="Actually Impossible lol")})) Game.Win("Actually Impossible lol")
+         if(Game.mods["ECM+++"].achievements.every((c)=>{return c.won||(c.name=="Actually Impossible lol")})) Game.Win("Actually Impossible lol")
         if (!Game.fullDate || (Date.now()-Game.fullDate)>=100*24*60*60*1000) Game.Win("Hundred Day Survivor")
     },
     save: function(){
