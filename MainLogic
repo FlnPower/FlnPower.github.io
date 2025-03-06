@@ -1,4 +1,4 @@
-//credit to Xyntercept for making the "filthy richard" texture
+```javascript//credit to Xyntercept for making the "filthy richard" texture
 Game.registerMod("LesContent",{
     init:function(){
     if(l('topbarFrenzy')){
@@ -247,4 +247,4 @@ if (Game.Objects["Farm"].minigameLoaded) {
     load: function(str){
         for(let i in this.achievements)this.achievements[i].won=Number(str[i])
     }
-})
+})```
