@@ -1,4 +1,4 @@
-```
+
 //credit to Xyntercept for making the "filthy richard" texture
 Game.registerMod("LesContent",{
     init:function(){
@@ -249,4 +249,3 @@ if (Game.Objects["Farm"].minigameLoaded) {
         for(let i in this.achievements)this.achievements[i].won=Number(str[i])
     }
 })
-```
