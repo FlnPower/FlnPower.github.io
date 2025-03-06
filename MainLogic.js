@@ -6,7 +6,7 @@ Game.registerMod("LesContent",{
         Game.Notify("You are currently in an unofficial version of the game","Play on orteil.dashnet.org/cookieclicker")
         return;
     }
-        this.spritesheet=App?this.dir+"/img.png":"https://cdn.discordapp.com/attachments/1223559723312218152/1346887295264882768/Untitled_11-b327.png?ex=67c9d20b&is=67c8808b&hm=9c53731354bb5ac77636ffee23484b7947cd65b5effc14460a29d650900c8235&" //not hurrah github
+        this.spritesheet=App?this.dir+"/img.png":"https://github.com/FlnPower/LookAss/blob/f51a385b34890a6ee55eed74d9592fa71a3b1254/LookAss.png" //not hurrah github
         if(Game.ready) this.createAchievements()
         else Game.registerHook("create", this.createAchievements)
         Game.registerHook("check", this.checkAchievements)
