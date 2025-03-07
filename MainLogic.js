@@ -41,7 +41,7 @@ Game.registerMod("ECMplusplusplus",{
          this.achievements.push(new Game.Achievement("Shadow Completionist", "Have <b>all cookie clicker shadow achievements</b>. <q>Weren't these supposed to be difficult?</q>",[12,31]))
          this.achievements.push(new Game.Achievement("Game Completion", "Have <b>all cookie clicker shadow achievements</b>. <q>I ACTUALLY 100%'d cookie clicker.</q>",[28,21]))
          this.achievements.push(new Game.Achievement("The Juicy Queenbeets", "Have <b>4 Juicy Queenbeets at once</b> symmetrically. <q>Pulpy queenbeets.</q>",[31,20]))
-        this.achievements.push(new Game.Achievement("Dotjeiessism", "Slot in dotjeiess <b>100 times</b>.(might need to do it a bit slowly for it to count) <q>Javascript!</q>",[26,18]))
+        this.achievements.push(new Game.Achievement("Dotjeiessism", "Slot in dotjeiess <b>100 times</b> without closing the tab.(might need to do it a bit slowly for it to count) <q>Javascript!</q>",[26,18]))
         this.achievements.push(new Game.Achievement("Golden Lindsay", "Click <b>777 golden cookies</b> in one ascension. <q>Do as</q>",[1,2,this.spritesheet]))
         this.achievements.push(new Game.Achievement("Hardcore Earlygamer", "Get to <b>1 sextillion cookies</b> in born again. <q>Weren't you supposed to ascend at 365?</q>",[18,6]))
          this.achievements.push(new Game.Achievement("Filthy Richard", "Obtain a cookies per second score of <b>100 octodecillion</b>. <q>☆💰RICH💰☆</q>",[2,2,this.spritesheet]))
