@@ -26,7 +26,7 @@ Game.registerMod("ECMplusplusplus",{
           this.achievements.push(new Game.Achievement("Just Plain Luckier", "You have a <b>1 in 10 million chance</b> of earning this achievement every second. <q>Now THATS real luck.</q>",[19,21]))
         this.achievements.push(new Game.Achievement("Luminous Glovemaxxing", "Reach level <b>20</b> cursors. <q>Isn't that supposed to be the worst building?</q>",[0,27]))
          this.achievements.push(new Game.Achievement("The Great Recession", "Lose <b>5,000,000,000 dollars</b> in the stock market. <q>How does this even happen?</q>",[3,1,this.spritesheet]))
-        this.achievements.push(new Game.Achievement("When The Cookies Truly Nevercore", "Ascend exactly <b>1 trillion cookies without clicking or buying upgrades</b>. <q>I love boring idle gameplay.</q>",[2,1,this.spritesheet]))
+        this.achievements.push(new Game.Achievement("When The Cookies Truly Nevercore", "Have exactly <b>1 trillion cookies without clicking or buying upgrades</b>. <q>I love boring idle gameplay.</q>",[2,1,this.spritesheet]))
          this.achievements.push(new Game.Achievement("The Biscuit Tapper", "Play the game for <b>10 days</b>. <q>Run away while you still can!</q>",[10,22]))
         this.achievements.push(new Game.Achievement("Lucky 7", "Have <b>7 golden cookies</b> onscreen at once. <q>I can only count to 3!!!</q>",[4,1,this.spritesheet]))
         this.achievements.push(new Game.Achievement("Holiday Lover", "Have all <b>seasonal cookies</b> at once. <q>What if you actually had to use natural seasons?</q>",[5,1,this.spritesheet]))
