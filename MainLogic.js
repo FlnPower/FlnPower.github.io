@@ -1,4 +1,3 @@
-
 //credit to Xyntercept for making the "filthy richard" texture
 Game.registerMod("ECMplusplusplus",{
     init:function(){
@@ -68,7 +67,7 @@ Game.registerMod("ECMplusplusplus",{
         if(Game.resets>=100000)Game.Win("Neverending Continuum")
         if(Game.cookieClicks>=1000000)Game.Win("Hand Broken")
         if(Game.Objects.Farm.minigameLoaded && Game.Objects.Farm.minigame.convertTimes >=100)Game.Win("The Preeminent Gardener")
-        if(Game.wrinklers.every((w)=>{return w.type==1})) Game.Win("Repopulation 2")
+        if(Game.wrinklers.every((w)=>{return w.type==1})) {Game.Win("Repopulation 2")} else if (Game.HasAchiev("Repopulation"))Game.Win("Repopulation 2")
          if(Game.cookiesEarned+Game.cookiesReset>1e79 && Game.version <= 2.052) {Game.Win("This Game Truly Never Ends")} else {Game.Achievements["This Game Truly Never Ends"].won=0}      
     if(Game.Objects.Bank.minigameLoaded && Game.Objects.Bank.minigame.profit>=1000000000)Game.Win("Resudual Wealth")
          if(Game.Objects["Wizard tower"].minigameLoaded && Game.Objects['Wizard tower'].minigame.spellsCastTotal>=1234567.89)Game.Win("The Mighty Wizard")
